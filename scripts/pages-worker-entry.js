@@ -1,7 +1,7 @@
 import app from './app.js';
 
 const PUBLIC_ASSET_PATH =
-  /\.(?:avif|css|gif|ico|jpe?g|js|json|mp4|png|svg|webm|webp|woff2?|ttf)$/i;
+  /\.(?:avif|css|gif|ico|jpe?g|js|json|mp4|png|svg|txt|webm|webp|woff2?|ttf)$/i;
 
 export default {
   async fetch(request, env, context) {
